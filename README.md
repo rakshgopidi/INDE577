@@ -7,18 +7,25 @@ Dr. Randy R. Davila
 # Content
 **Supervised Learning**
 
-1. K-Nearest Neighbors
-2. Gradient Descent
-3. Linear Regression
-4. Logistic Regression
-5. Single Perceptron
-6. Multi Layer Perceptron
-7. Decision Trees
+1. Decision Trees
+2. Ensemble Learning
+3. Gradient Descent
+4. K-Nearest Neighbors
+5. Linear Regression
+6. Logistic Regression
+7. Multi Layer Perceptron
 8. Random Forests
-9. Ensemble Learning
+9. SVM
+10. Single Perceptron
 
 **Unsupervised Learning**
+
 1. K-Means Clustering
+2. PCA
+
+**Reinforcement Learning**
+
+1. Tabular versus Deep Learning Methods
 
 # Programming Tools and Libraries
 Python,Jupyter Notebook, Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn, Keras, TensorFlow, etc.
