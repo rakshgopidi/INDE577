@@ -25,7 +25,6 @@ Dr. Randy R. Davila
 
 **Reinforcement Learning**
 
-1. Tabular versus Deep Learning Methods
 
 # Programming Tools and Libraries
 Python,Jupyter Notebook, Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn, Keras, TensorFlow, etc.
