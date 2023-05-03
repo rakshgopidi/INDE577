@@ -1,10 +1,10 @@
-Comparing Adam and Mini-batch Gradient Descent for Binary Classification
+# Comparing Adam and Mini-batch Gradient Descent for Binary Classification
 This code compares two popular optimization algorithms, Adam and Mini-batch Gradient Descent, for binary classification on a breast cancer dataset. The goal is to predict whether a tumor is malignant (cancerous) or benign (non-cancerous) based on various features.
 
-Dataset
+**Dataset**
 The dataset used in this code is the Breast Cancer Wisconsin (Diagnostic) Data Set from the UCI Machine Learning Repository. The dataset consists of 569 instances, with 30 features for each instance. The target variable is the diagnosis of the tumor, which is either M (malignant) or B (benign).
 
-Preprocessing
+**Preprocessing**
 Before training the models, the following preprocessing steps are performed on the data:
 
 Dropping unnecessary columns (id and Unnamed: 32)
@@ -23,7 +23,7 @@ The Adam algorithm is implemented using a loop that iteratively computes gradien
 
 The accuracy of the model on the test set is reported at the end of the loop.
 
-Mini-batch Gradient Descent
+**Mini-batch Gradient Descent**
 Mini-batch Gradient Descent is another popular optimization algorithm for training machine learning models. Unlike Adam, which updates the parameters after every iteration, Mini-batch Gradient Descent updates the parameters after processing a small batch of examples at a time. This can speed up the convergence and reduce memory usage.
 
 The hyperparameters for Mini-batch Gradient Descent used in this code are:
@@ -35,5 +35,5 @@ The Mini-batch Gradient Descent algorithm is implemented using a loop that itera
 
 The weights, bias, and cost history of the model are returned at the end of the loop. The accuracy of the model on the test set is computed using the weights and bias.
 
-Conclusion
+**Conclusion**
 This code demonstrates how to implement two popular optimization algorithms, Adam and Mini-batch Gradient Descent, for binary classification. The accuracy of both algorithms can be compared to determine which one works best for a given dataset and problem.
